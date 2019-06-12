@@ -3,10 +3,10 @@
 ##Backend PHP Test
 
 1)PHP Crud
-##Login & Registration
+Login & Registration
 - Since I’m using Laravel, I just use the following command to scaffold all of the routes and views ##php artisan make:auth
 
-##Database MySQL
+Database MySQL
 - Laravel migration: database/migrations/2014_10_12_000000_create_users_table.php
 
 - MySQL:
@@ -25,10 +25,17 @@ CREATE TABLE `users` (
   UNIQUE KEY `users_email_unique` (`email`)
 )
 
-- CRUD Form :
-resources/views/auth/login.blade.php
+- CRUD Form : resources/views/auth/login.blade.php
 
 2)	app/CustomClass/Test.php
 3)	app/CustomClass/Car.php
+
+##Engineering - Logic Test
+
+1)	Controller: app/Http/Controllers/RoomController.php
+2)	Model: app/Room.php
+3)	Migration: database/migrations/2019_05_31_010343_create_rooms_table.php
+4)	View: resources/views/room
+
 
 
